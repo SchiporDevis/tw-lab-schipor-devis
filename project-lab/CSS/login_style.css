@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2f363f;
+    color: #ffffff;
+}
+
+.login-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    width: 80%;
+    max-width: 900px;
+    justify-content: center;
+}
+
+.logo-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tw-logo {
+    max-width: 250px;
+    height: auto;
+}
+
+.divider {
+    width: 3px;
+    height: 320px;
+    background-color: #ffffff;
+    border-radius: 2px;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 320px;
+}
+
+.form-section h2 {
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 25px;
+    color: #ffffff;
+}
+
+.form-section form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-section input {
+    width: 100%;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+    background-color: #ffffff;
+    color: #333;
+}
+
+.form-section input::placeholder {
+    color: #888;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 12px;
+    background-color: #4f70b5;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-top: 5px;
+}
+
+.btn-login:hover {
+    background-color: #3b5998;
+}
+
+.register-text {
+    margin-top: 15px;
+    font-size: 13px;
+    color: #aaaaaa;
+}
+
+.register-text a {
+    color: #6a95e2;
+    text-decoration: none;
+}
+
+.register-text a:hover {
+    text-decoration: underline;
+}
